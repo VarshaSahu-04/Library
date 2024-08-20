@@ -3,6 +3,7 @@ Method:GET
 
 Comment : title and or genre are required
 
+
 2.http://127.0.0.1:8000/api/rent?title=Pride and Prejudice&user_name=Sonu
 Method:GET
 Comment:title and user_name both are required
