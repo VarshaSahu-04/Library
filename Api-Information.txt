@@ -1,0 +1,26 @@
+1.http://127.0.0.1:8000/api/search?title=1984&genre=classics
+Method:GET
+
+Comment : title and or genre are required
+
+2.http://127.0.0.1:8000/api/rent?title=Pride and Prejudice&user_name=Sonu
+Method:GET
+Comment:title and user_name both are required
+
+3.http://127.0.0.1:8000/api/return?title=Pride and Prejudice&user_name=Sonu
+Method:GET
+
+Comment:title and user_name both are required!!!
+if wrong combination given then it will say Invalid Request!!! Either Book is not assigned to given user or it is not valid for return request!!!
+
+4.http://127.0.0.1:8000/api/bookhistory?title=Moby-Dick
+Method:GET
+Comment:title is required!!!
+
+5.http://127.0.0.1:8000/api/userhistory?user_name=Sonam
+Method:GET
+Comment:user_name is required!!!
+
+
+6.http://127.0.0.1:8000/api/stats
+Method:GET
